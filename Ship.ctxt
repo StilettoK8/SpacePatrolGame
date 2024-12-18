@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Ship
+comment1.params=shipType
+comment1.target=Ship(ShipType)
+comment2.params=
+comment2.target=java.util.ArrayList\ getShip()
+comment3.params=shipType\ shipHP\ shipEvasionChance
+comment3.target=Ship(ShipType,\ int,\ int)
+comment4.params=
+comment4.target=void\ loadPlayerShip()
+comment5.params=
+comment5.target=java.util.ArrayList\ getPlayerShip()
+comment5.text=\r\n\ odstranit,\ test\ na\ nacitanie\ lode\r\n\ \ \ \ private\ void\ printIt(){\r\n\ \ \ \ for\ (ArrayList<Character>\ row\ \:\ ship)\ {\r\n\ \ \ \ for\ (Character\ c\ \:\ row)\ {\r\n\ \ \ \ System.out.print(c);\ \r\n\ \ \ \ }\r\n\ \ \ \ System.out.println();\r\n\ \ \ \ }\r\n}
+comment6.params=
+comment6.target=void\ nacitajModulyAZbrane()
+comment7.params=lod\ pattern
+comment7.target=int\ spocitajPocet(java.lang.String,\ java.lang.String)
+comment8.params=
+comment8.target=java.lang.String\ convertCharsToString()
+numComments=9

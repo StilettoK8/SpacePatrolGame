@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Module
+comment1.params=speed
+comment1.target=Module(int)
+comment1.text=\r\n\ Trafi\ napr.\ zbran\:\r\n\ 1.\ trafi\ napr.\ symbol\ "\="\r\n\ 2.\ moze\ byt\ armor\ alebo\ turret\r\n\ 3.\ hlada\ smerom\ doprava\ (+x)\r\n\ \ \ \ 3.1\ ak\ najde\ "\=",\ hlada\ dalej\ smerom\ doprava\ (+x)\r\n\ \ \ \ 3.2\ ak\ najde\ "@",\ vie\ ze\ trafil\ zbran\ ->\ posun\ sa\ na\ krok\ 4\r\n\ \ \ \ 3.3\ ak\ najde\ nieco\ ine,\ vie\ ze\ trafil\ armor\ ->\ spracuj\r\n\ 4.\ nasiel\ zbran.\ Ide\ na\ povodne\ miesto.\ Prejde\ array\ list\ zbrani\:\r\n\ \ \ \ \ \ while\ (this.ship.getChar(trafeneX,\ trafeneY)\ \=\=\ '\='\ {\r\n\ \ \ \ \ \ \ \ \ \ for\ (Weapon\ w\ \:\ this.weapons)\ {\ //\ tento\ loop\ v\ triede\ Ship\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ int\ wX\ \=\ w.getX();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ int\ wY\ \=\ w.getY();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ if\ (wX\ \=\=\ trafeneX\ &&\ wY\ \=\=\ trafeneY)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ tu\ vykona\ trafenie\ zbrane\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ }\ //\ ak\ tam\ nie\ je\ ziadna\ zbran,\ posun\ dolava\ a\ hladaj\ znova\r\n\ \ \ \ \ \ \ \ \ \ trafeneX--;\r\n\ \ \ \ \ \ }\r\n
+comment2.params=
+comment2.target=Module()
+comment3.params=
+comment3.target=int\ repairTimeLeft()
+comment4.params=urichlenieOpravi
+comment4.target=void\ setRepairTimeLeft(int)
+numComments=5

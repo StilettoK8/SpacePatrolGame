@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Weapon
+comment1.params=dmg
+comment1.target=Weapon(int)
+comment1.text=\r\n\ ROZDELENIE\ TURRET\ vs\ ROCKET\ LAUNCHER\:\r\n\ -\ atrib\u00FAt\ int\ pocetAmmo\ (pocetTorped);\ //DONE\r\n\ -\ final\ atrib\u00FAt\ boolean\ maNekonecneAmmo;\r\n\ -\ v\ met\u00F3de\ strielaj\:\r\n\ \ \ \ \ 1.\ logika\ zamerania,\ strelby\ (najlepsie\ vsetko\ v\ zvlast\ metodach\ a\ zavolat\ ich)\r\n\ \ \ \ \ 2.\ logika\ spotreby\ ammo\ ALE\ iba\ (najlepsie\ tiez\ v\ zvlast\ metode\ a\ zavolat\ ju\ v\ if-e)\r\n\ \ \ \ \ \ \ \ \ \ \ if\ (\!this.maNekonecneAmmo)\ {\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ logika\ spotreby\ ammo\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ logika\ update\ charov\ na\ zbrani\ aby\ odrazali\ skutocnost\r\n\ \ \ \ \ \ \ \ \ \ \ }\r\n
+comment2.params=dmg\ pocetTorped
+comment2.target=Weapon(int,\ int)
+comment3.params=
+comment3.target=int\ getPocetTorped()
+comment4.params=pridavaneTorpeda
+comment4.target=void\ setPocietRakiet(int)
+numComments=5
